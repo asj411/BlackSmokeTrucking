@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Smoke</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            color: #fff;
+            position: relative;
+        }
+        .logo {
+            display: block;
+            margin: -130px auto 0;
+            max-width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .extra-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            max-width: 100%;
+            height: auto;
+            z-index: 0;
+        }
+        .contact-text {
+            color: #000000;
+            font-size: 20px;
+            position: absolute;
+            top: 15px; 
+            right: 20px; 
+        }
+        .additional-info {
+            text-align: center;
+            color: #000;
+            font-size: 30px;
+            margin-top: 20px;
+            position: absolute;
+            top: 1100px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .slideshow-container {
+            max-width: 100%;
+            position: absolute;
+            margin: auto;
+            top: 1600px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .mySlides {
+            display: none;
+            width: 100%;
+        }
+        .slide-img {
+            width: 100%;
+            height: auto;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: 50px;
+            height: 50px;
+            margin-top: -25px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            transition: 0.6s ease;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .website-summary {
+            text-align: left;
+            color: #000;
+            font-size: 30px;
+            margin-top: 20px;
+            position: absolute;
+            top: 2200px;
+            left: 20px;
+            transform: none;
+            max-width: 50%;
+        }
+        .contact-us {
+            text-align: left;
+            color: #000;
+            font-size: 30px;
+            margin-top: 20px;
+            position: absolute;
+            top: 2800px;
+            left: 32%;
+            transform: translateX(-50%);
+        }
+
+            .contact-us a {
+            text-decoration: none; 
+            color: #000; 
+        }
+       
+        .contact-us p:hover a {
+            background-color: transparent; 
+            color: #f77a06; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img class="logo" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\Black Smoke Logo.png" alt="Logo">
+    <img class="extra-image" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\AUSTIN, TEXAS HOTSHOT TRUCKING SERVICE.png" alt="Extra Image">
+    <div><p class="contact-text">Contact (936) 204-0162</p></div>
+</header>
+
+<div class="additional-info">
+    <p>Personal Service - Fast Delivery</p>
+    <p>Trailer #1 35 ft. up to 10,000 lbs.</p>
+    <p>Trailer #2 44 ft. up to 21,000 lbs.</p>
+    <p>Containers, Equipment, Tractors & much more</p>
+</div>
+
+<!-- Slideshow Container -->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 1.jpg" alt="Slide 1">
+    </div>
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 2.jpg" alt="Slide 2">
+    </div>
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 3.jpg" alt="Slide 3">
+    </div>
+    <!-- Add more slides -->
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 4.jpg" alt="Slide 4">
+    </div>
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 5.jpg" alt="Slide 5">
+    </div>
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 6.jpg" alt="Slide 6">
+    </div>
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black Smoke 7.jpg" alt="Slide 7">
+    </div>
+    <div class="mySlides fade">
+        <img class="slide-img" src="C:\Users\asj00.LAPTOP-C9640KBV\OneDrive\Pictures\Black Smoke\New folder\Black smoke 8.jpg" alt="Slide 8">
+    </div>
+
+   
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+<script>
+    var slideIndex = 0;
+    var slides;
+    var slideTimeout;
+
+    document.addEventListener("DOMContentLoaded", function() {
+        slides = document.getElementsByClassName("mySlides");
+        showSlides();
+    });
+
+    function showSlides() {
+        var i;
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        if (slideIndex < 1) {slideIndex = slides.length}
+        slides[slideIndex - 1].style.display = "block";
+        slideTimeout = setTimeout(showSlides, 5000); 
+    }
+
+    function plusSlides(n) {
+        clearTimeout(slideTimeout);
+        showSlides();
+        if (n == -1) {
+            slideIndex -= 2; 
+        }
+    }
+</script>
+
+<div class="website-summary">
+    <h2>Welcome</h2>
+    <p>Welcome to Black Smoke Hot Shot Trucking, your local partner for reliable transportation solutions. As a small business, we take pride in offering personalized service tailored to meet your needs. Our dedicated team and modern fleet ensure prompt and secure delivery of your goods, whether across town or across the region. Explore our range of services designed to support your logistics requirements. At Black Smoke, we're committed to providing quality service with a personal touch. Contact us today to discuss how we can help your business thrive.</p>
+</div>
+
+<!-- Contact Us section -->
+<div class="contact-us">
+    <h2>Contact Us</h2>
+    <p>For inquiries or to schedule a delivery, please contact us at:</p>
+    <p>Phone: (936) 204-0162</p>
+    <p>Email: <a href="mailto:blacksmokellc2015@gmail.com">blacksmokellc2015@gmail.com</a></p></p>
+    <p>Address: Lufkin, TX 75904</p>
+</div>
+
+</body>
+</html>
